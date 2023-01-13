@@ -50,7 +50,8 @@ class Program
         string str_main = "";
         int[] int_main = new int[1];
         int int_loop = 0;
-
+        
+        Console.Write("Please input the array = ");
         str_main = Console.ReadLine();
         
         for (int y = 1; y < str_main.Length - 1; y++)
